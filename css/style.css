@@ -10,11 +10,16 @@
   background-color: #fff;
   border-bottom: var(--color-Grey-light-2); }
 
+.content {
+  display: flex; }
+
 .sidebar {
-  background-color: var(--color-Grey-dark-1); }
+  background-color: var(--color-Grey-dark-1);
+  flex: 1; }
 
 .hotel-view {
-  background-color: #fff; }
+  background-color: #fff;
+  flex: 3; }
 
 :root {
   --color-pink-primary: #eb2f64;
