@@ -1,53 +1,48 @@
 ////////////////////////////////////////
 // LOGO
-.logo{
-    height: 3.25rem;
+.logo {
+  height: 3.25rem;
 }
-
 
 ////////////////////////////////////////
 // SEARCH
-.search{
-    &__input {
+.search {
+  background-color: antiquewhite;
+  &__input {
+  }
 
-    }
+  &__button {
+  }
 
-    &__button  {
-
-    }
-
-    &__icon {
-        height: 2rem;
-        width: 2rem;
-    }
+  &__icon {
+    height: 2rem;
+    width: 2rem;
 }
-
+}
 
 ////////////////////////////////////////
 // USER NAVIGTION
 .user-nav {
-    &__icon-box {
+  background-color: cadetblue;
+  &__icon-box {
+  }
 
-    }
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
 
-    &__icon {
+  &__notification {
+  }
 
-    }
+  &user {
+  }
 
-    &__notification {
-
-    }
-
-    &user{
-
-    }
-
-    &__user-photo {
+  &__user-photo {
     height: 3.75rem;
     border-radius: 50%;
-    }
+  }
 
-    &__user-name{
-
-    }
+  &__user-name {
+  }
 }
