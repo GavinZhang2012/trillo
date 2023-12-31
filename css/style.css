@@ -61,10 +61,23 @@ body {
   min-height: 100vh; }
 
 .logo {
-  height: 3.25rem; }
+  height: 3.25rem;
+  margin-left: 3rem; }
 
 .search {
-  background-color: antiquewhite; }
+  background-color: antiquewhite;
+  flex: 0 0 40%; }
+  .search__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: var(--color-Grey-light-2);
+    border: none;
+    border-radius: 100px;
+    width: 90%; }
+    .search__input:focus {
+      outline: none;
+      width: 100%; }
   .search__icon {
     height: 2rem;
     width: 2rem; }
