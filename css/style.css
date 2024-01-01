@@ -77,9 +77,9 @@ body {
     background-color: var(--color-Grey-light-2);
     border: none;
     border-radius: 100px;
-    padding: .7rem 2rem;
+    padding: 0.7rem 2rem;
     width: 90%;
-    transform: all .2s;
+    transform: all 0.2s;
     margin-right: -3.25rem; }
     .search__input:focus {
       outline: none;
@@ -121,7 +121,7 @@ body {
     width: 2.25rem;
     fill: var(--color-Grey-dark-2); }
   .user-nav__notification {
-    font-size: .8rem;
+    font-size: 0.8rem;
     height: 1.75rem;
     width: 1.75rem;
     border-radius: 50%;
@@ -137,3 +137,13 @@ body {
     height: 3.75rem;
     border-radius: 50%;
     margin-right: 1rem; }
+
+.side-nav__icon {
+  width: 1.75rem;
+  height: 1.75rem; }
+
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--color-Grey-light-4); }

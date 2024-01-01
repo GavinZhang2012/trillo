@@ -21,9 +21,9 @@
     background-color: var(--color-Grey-light-2);
     border: none;
     border-radius: 100px;
-    padding: .7rem 2rem;
+    padding: 0.7rem 2rem;
     width: 90%;
-    transform: all .2s;
+    transform: all 0.2s;
     margin-right: -3.25rem;
 
     &:focus {
@@ -35,7 +35,6 @@
     &::-webkit-input-placeholder {
       font-weight: 100;
       color: var(--color-Grey-light-4);
-
     }
   }
 
@@ -94,11 +93,11 @@
   }
 
   &__notification {
-    font-size: .8rem;
+    font-size: 0.8rem;
     height: 1.75rem;
     width: 1.75rem;
     border-radius: 50%;
-    background-color:var(--color-pink-primary);
+    background-color: var(--color-pink-primary);
     color: #fff;
     position: absolute;
     top: 1.5rem;
@@ -115,23 +114,26 @@
   }
 }
 
-
 ////////////////////////////////////////
 // SIDE NAVIGATION
 .side-nav {
   &__item {
-
   }
 
   &__link {
-
   }
 
   &__icon {
-
+    width: 1.75rem;
+    height: 1.75rem;
   }
 }
 
-
 ////////////////////////////////////////
-// 
+// LEGAL TEXT
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--color-Grey-light-4);
+}
