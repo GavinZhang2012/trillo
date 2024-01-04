@@ -129,7 +129,8 @@
     }
   }
 
-  &__item:hover::before {
+  &__item:hover::before,
+  &__item--active::before {
     transform: scaleY(1);
     width: 100%;
   }
@@ -146,7 +147,7 @@
     transform: scaleY(0);
     transform-origin: center;
     transition: transform .2s,
-                width .4s;
+                width .2s cubic-bezier(1,-0.01,0,1.01) .4s;
   }
 
   &__link:link,
@@ -159,6 +160,8 @@
 
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 10;
   }
 
   &__icon {
