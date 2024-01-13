@@ -232,8 +232,12 @@
     align-items: center;
   }
 
-  &__rating {
+  &__icon-location {
+    margin-right: .5rem;
+  }
 
+  &__rating {
+    background-color: var(--color-pink-primary);
   }
 
   &__rating-average {
