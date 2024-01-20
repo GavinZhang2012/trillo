@@ -25,7 +25,7 @@
 .sidebar{
     background-color: var(--color-Grey-dark-1);
 
-    flex: 1;
+    flex: 0 0 18%;
 
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@
     background-color: #fff;
 
     height: 80rem;
-    flex: 3;
+    flex: 1;
 }
 
 .detail {
