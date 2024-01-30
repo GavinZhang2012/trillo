@@ -335,8 +335,8 @@
   &__item::before {
     content: "";
     display: inline-block;
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: 1rem;
     margin-right: .7rem;
     background-image: url(../img/SVG/chevron-thin-right.svg);
 
@@ -364,7 +364,7 @@
   align-items: center;
 
   &__count {
-
+    margin-right: auto;
   }
 
   &__frients {
